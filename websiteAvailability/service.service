@@ -1,0 +1,15 @@
+# SystemD unit samle
+[Unit]
+Description=Producer/Consumer Daemon
+After=network-online.target
+
+[Service]
+Type=simple
+User=whatever
+# ExecStart=$PROGRAMPATH/producer.py http://www.google.com
+# ExecStart=$PROGRAMPATH/consumer.py
+Restart=on-failure
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target

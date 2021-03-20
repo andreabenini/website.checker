@@ -1,0 +1,1 @@
+rm -r src/__pycache__
