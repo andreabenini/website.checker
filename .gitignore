@@ -5,14 +5,14 @@ docker-*
 start.*
 
 # Visual Studio Code files
-.vscode/
+.vscode
 
 # Python VirtualEnv stuff
 websiteAvailability/bin
+websiteAvailability/include
 websiteAvailability/lib
 websiteAvailability/lib64
-websiteAvailability/include
-websiteAvailability/pyvenv.cfg
 websiteAvailability/src/__pycache__
 websiteAvailability/src/ca.pem
 websiteAvailability/src/service.*
+websiteAvailability/pyvenv.cfg
